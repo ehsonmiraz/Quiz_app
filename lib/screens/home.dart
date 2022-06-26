@@ -30,6 +30,14 @@ class _HomeState extends State<Home>{
     {'ques_text':'What you fav movie?',
       'answers':[{'text':'12 angrymen','score': 10},{'text':'batman','score': 8}, {'text':'one flew over the cuckoos nest','score': 9},{'text':'LOTR','score': 8},]
     },
+
+    {'ques_text':'What you fav teacher?',
+      'answers':[{'text':'MAX','score': 10},{'text':'DAVID','score': 8}, {'text':'TOM','score': 9},{'text':'Yun Lee','score': 8},]
+    },
+
+    {'ques_text':'What you fav cricketer?',
+      'answers':[{'text': 'Kane','score': 10},{'text':'Virat','score': 8}, {'text':'Steve','score': 9},{'text':'Joe','score': 8},]
+    },
   ];
   @override
   Widget build(BuildContext context){
